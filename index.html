@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proviz School of AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#apply">Apply Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro" class="hero">
+            <h1>Proviz School of AI</h1>
+            <p>Empowering the next generation of AI professionals with cutting-edge knowledge and skills.</p>
+            <button id="learn-more" class="cta-button">Learn More</button>
+        </section>
+        
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>Proviz School of AI is dedicated to providing top-notch education in artificial intelligence. Our mission is to nurture and develop the next generation of AI experts through innovative learning experiences and practical training.</p>
+            <p>We offer a range of courses designed to equip students with the necessary skills to thrive in the rapidly evolving field of AI.</p>
+        </section>
+        
+        <section id="courses" class="courses-section">
+            <h2>Our Courses</h2>
+            <div class="course">
+                <h3>Introduction to AI</h3>
+                <p>Learn the basics of AI and its applications in various fields, including healthcare, finance, and robotics.</p>
+            </div>
+            <div class="course">
+                <h3>Machine Learning</h3>
+                <p>Dive deep into machine learning algorithms and techniques, focusing on supervised and unsupervised learning.</p>
+            </div>
+            <div class="course">
+                <h3>Deep Learning</h3>
+                <p>Explore neural networks and advanced deep learning models, including convolutional and recurrent networks.</p>
+            </div>
+            <div class="course">
+                <h3>Natural Language Processing</h3>
+                <p>Understand the fundamentals of NLP and how to build applications that can understand human language.</p>
+            </div>
+            <div class="course">
+                <h3>Data Science</h3>
+                <p>Learn how to analyze and visualize data using statistical methods and tools.</p>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial">
+                <p>"Proviz School of AI provided me with the skills I needed to excel in my career. The courses were insightful and practical!"</p>
+                <h4>- Alex Johnson</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The instructors are top-notch and the curriculum is up-to-date with industry standards. Highly recommend!"</p>
+                <h4>- Maria Garcia</h4>
+            </div>
+            <div class="testimonial">
+                <p>"I loved the hands-on approach of the courses. I felt prepared to tackle real-world AI challenges!"</p>
+                <h4>- James Smith</h4>
+            </div>
+        </section>
+
+        <section id="team" class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-member">
+                <h3>Dr. Emily Watson</h3>
+                <p>Founder & CEO - An expert in AI and machine learning with over 15 years of experience in the field.</p>
+            </div>
+            <div class="team-member">
+                <h3>Prof. John Doe</h3>
+                <p>Lead Instructor - A renowned professor specializing in deep learning and data science.</p>
+            </div>
+            <div class="team-member">
+                <h3>Ms. Sarah Lee</h3>
+                <p>Course Coordinator - Experienced in curriculum development and student engagement in AI education.</p>
+            </div>
+        </section>
+
+        <section id="apply" class="apply-section">
+            <button id="apply-button" class="cta-button">Apply Now</button>
+            <div id="application-form" class="modal" style="display:none;">
+                <form id="applicationForm">
+                    <span class="close-button">&times;</span>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="statement">Statement:</label>
+                    <textarea id="statement" name="statement" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: <a href="mailto:info@provizschoolofai.com">info@provizschoolofai.com</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
